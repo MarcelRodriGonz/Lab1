@@ -1,0 +1,160 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+html {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+a:hover {
+  color: #2d2d2d2d;
+}
+.anchor {
+  margin-bottom: 100px;
+}
+.title-gradient {
+  font-weight: 700;
+  color: #fff;
+	background: linear-gradient(-45deg, #e2e212, #e63c6e, #25a6d4, #25d5ad);
+	background-size: 400% 400%;
+	-webkit-animation: gradientShift 20s ease infinite;
+	-moz-animation: gradientShift 20s ease infinite;
+	animation: gradientShift 20s  ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  margin: 0px;
+  height: 65px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.menu li:first-child {
+  padding: 0px;
+  margin-right: auto;
+}
+.menu > li {
+  padding: 20px;
+  list-style: none;
+}
+.businessCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px;
+}
+.socialLinks {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;;
+}
+.socialLink{
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.myInfo {
+  margin: 50px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.cardPic {
+  grid-column-end: -1;
+}
+.greeting {
+  color: #FFF;
+  height: 750px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background: url(../img/marcelrg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.greeting > * {
+  margin: 0;
+}
+.sendMeDM{
+  color: #FFF;
+  height: 470px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background: url(../img/marcelContact.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.sendMeDM > * {
+  margin: 0;
+}
+@-webkit-keyframes gradientShift {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@-moz-keyframes gradientShift {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+@keyframes gradientShift {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}

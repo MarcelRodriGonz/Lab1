@@ -1,0 +1,20 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+html {
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  scroll-behavior: smooth;
+}
+img {
+  height: 500px;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.hi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
