@@ -8,13 +8,47 @@ html {
   scroll-behavior: smooth;
 }
 img {
-  height: 500px;
+  max-height: 500px;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
 }
-.hi {
+body {
+  margin: 0px;
+}
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #212121;
+  line-height:0;
+}
+.menu a:link {
+  color: #212121;
+}
+.menu a:visited {
+  color: #212121;
+}
+.menu a:hover {
+  color: #838383;
+}
+.hi{
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.resume{
+  margin: 20px;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
